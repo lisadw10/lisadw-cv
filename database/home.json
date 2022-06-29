@@ -1,0 +1,53 @@
+{
+    "Navbar" : {
+        "name" : "navbar",
+        "items" : [
+            {
+                "name" : "bio",
+                "url" : "index.html"
+            },
+            {
+                "name" : "Portofolio",
+                "url" : "portofolio.html"
+            },
+            {
+                "name" : "Resume",
+                "url" : "resume.html"
+            },
+            {
+                "name" : "Contact",
+                "url" : "contact.html"
+            }
+        ],
+        "social" : [
+            {
+                "name" : "Twitter",
+                "icon" : "fa fa-twitter",
+                "url" : "https://twitter.com"
+            },
+            {
+                "name" : "Facebook",
+                "icon" : "fa fa-facebook",
+                "url" : "https://facebook.com"
+            },
+            {
+                "name" : "Instagram",
+                "icon" : "fa fa-instagram",
+                "url" : "https://instagram.com"
+            }
+        ]
+    },
+    "Home" : {
+        "img" : "img/profile_big.jpg",
+        "title" : "Hi, I'm Lisa Dwi Wahyuni",
+        "desc" : "Web Designer &amp; Developer",
+        "items" : [
+            {
+                "value" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, magnam aut animi, excepturi voluptatum placeat dolor accusantium atque iure! Animi architecto eveniet voluptatum illo ut maiores sed, autem pariatur culpa?"
+            },
+            {
+                "value" : "Commodi, neque debitis atque cum quod, culpa repellendus voluptatum voluptatem, molestiae dicta laborum nulla corporis illum, ratione rerum quibusdam ea optio! Consectetur obcaecati facilis esse reprehenderit ipsam, facere dolorem incidunt."
+            }
+        ]
+    }
+}
