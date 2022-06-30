@@ -25,18 +25,18 @@ export default function Home({websiteData}) {
       Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
       {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
     </div>
-    <aside style={{backgroundImage: `url(${websiteData.dbWeb[1].img})`}} />
+    <aside style={{backgroundImage: `url(${websiteData.dbWeb[0].img})`}} />
     <main>
-      <h1 className="mb-0">{websiteData.dbWeb[1].title}</h1>
+      <h1 className="mb-0">{websiteData.dbWeb[0].title}</h1>
       <div className="mb-5">
-        <p className="lead mb-3">{websiteData.dbWeb[1].desc}</p>
-        <p>{websiteData.dbWeb[1].items[0].value}</p>
-        <p>{websiteData.dbWeb[1].items[1].value}</p>
+        <p className="lead mb-3">{websiteData.dbWeb[0].desc}</p>
+        <p>{websiteData.dbWeb[0].items[0].value}</p>
+        <p>{websiteData.dbWeb[0].items[1].value}</p>
       </div>
       <p>
-        <a href={websiteData.dbWeb[0].social[0].url} className="mr-2 mb-2">Twitter</a>
-        <a href={websiteData.dbWeb[0].social[1].url} className="mr-2 mb-2">Facebook</a>
-        <a href={websiteData.dbWeb[0].social[2].url} className="mr-2 mb-2">Instagram</a> 
+        <a href={websiteData.dbWeb[1].social[0].url} className="mr-2 mb-2">Twitter</a>
+        <a href={websiteData.dbWeb[1].social[1].url} className="mr-2 mb-2">Facebook</a>
+        <a href={websiteData.dbWeb[1].social[2].url} className="mr-2 mb-2">Instagram</a> 
       </p>
       
     </main></div>
