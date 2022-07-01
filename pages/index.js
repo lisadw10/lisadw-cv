@@ -29,7 +29,7 @@ export default function Home({websiteData}) {
     <main>
       <h1 className="mb-0">{websiteData.dbWeb[1].title}</h1>
       <div className="mb-5">
-        <p className="lead mb-3">{websiteData.dbWeb[0].desc}</p>
+        <p className="lead mb-3">{websiteData.dbWeb[1].desc}</p>
         <p>{websiteData.dbWeb[1].items[0].value}</p>
         <p>{websiteData.dbWeb[1].items[1].value}</p>
       </div>
