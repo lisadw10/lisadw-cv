@@ -25,9 +25,9 @@ export default function Home({websiteData}) {
       Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
       {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
     </div>
-    <aside style={{backgroundImage: `url(${websiteData.dbWeb[0].img})`}} />
+    <aside style={{backgroundImage: `url(${websiteData.dbWeb[1].img})`}} />
     <main>
-      <h1 className="mb-0">{websiteData.dbWeb[0].title}</h1>
+      <h1 className="mb-0">{websiteData.dbWeb[1].title}</h1>
       <div className="mb-5">
         <p className="lead mb-3">{websiteData.dbWeb[0].desc}</p>
         <p>{websiteData.dbWeb[1].items[0].value}</p>
