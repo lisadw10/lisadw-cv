@@ -30,13 +30,13 @@ export default function Home({websiteData}) {
       <h1 className="mb-0">{websiteData.dbWeb[0].title}</h1>
       <div className="mb-5">
         <p className="lead mb-3">{websiteData.dbWeb[0].desc}</p>
-        <p>{websiteData.dbWeb[0].items[0].value}</p>
-        <p>{websiteData.dbWeb[0].items[1].value}</p>
+        <p>{websiteData.dbWeb[1].items[0].value}</p>
+        <p>{websiteData.dbWeb[1].items[1].value}</p>
       </div>
       <p>
-        <a href={websiteData.dbWeb[1].social[0].url} className="mr-2 mb-2">Twitter</a>
-        <a href={websiteData.dbWeb[1].social[1].url} className="mr-2 mb-2">Facebook</a>
-        <a href={websiteData.dbWeb[1].social[2].url} className="mr-2 mb-2">Instagram</a> 
+        <a href={websiteData.dbWeb[0].social[0].url} className="mr-2 mb-2">Twitter</a>
+        <a href={websiteData.dbWeb[0].social[1].url} className="mr-2 mb-2">Facebook</a>
+        <a href={websiteData.dbWeb[0].social[2].url} className="mr-2 mb-2">Instagram</a> 
       </p>
       
     </main></div>
